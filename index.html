@@ -5,13 +5,13 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>Yukon | Larger than life</title>
 	<link rel="stylesheet" href="styles/normalize-fwd.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="styles/index.css">
 	<script src="scripts/scripts.js" defer></script>
 </head>
-
-<a href="#site-main" class="screen-reader-text">Skip to Content</a>
-
-
 
 
     <nav class="site-navigation" id="site-navigation">
@@ -25,25 +25,44 @@
         </button>
 
         <ul class="nav" id="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#.html">Wilderness and wildlife</a></li>
-            <li><a href="#.html">Heritage and culture</a></li>
-            <li><a href="#.html">The Northern Lights</a></li>
-            <li><a href="#.html">Plan your stay</a></li>
-            <li><a href="#.html">Contact us</a></li>
-        </ul>
+            <li>
+                <a href="index.html">Home
+                <span class="chevron"><i class="fa fa-chevron-right"></i></span></a>
+            </li>
+            <li>
+                <a href="#.html">Wilderness and wildlife
+                <span class="chevron"><i class="fa fa-chevron-right"></i></span></a>
+            </li>
+            <li>
+                <a href="#.html">Heritage and culture
+                <span class="chevron"><i class="fa fa-chevron-right"></i></span></a>
+            </li>
+            <li>
+                <a href="#.html">The Northern Lights
+                <span class="chevron"><i class="fa fa-chevron-right"></i></span></a>
+            </li>
+            <li>
+                <a href="#.html">Plan your stay
+                <span class="chevron"><i class="fa fa-chevron-right"></i></span></a>
+            </li>
+        </ul>        
 
     </nav>
 
 
     <header class="site-header">
-
-    <div class="intro">
-        <h1>The Yukon</h1>
-        <p>It's larger than life.</p>
-    </div>
-
-    <video class="aurora" autoplay="" muted="" loop="" src="https://cdn.pixabay.com/video/2024/05/23/213425_large.mp4"></video>
+        <div class="intro">
+            <h1>The Yukon</h1>
+            <p>Larger than life</p>
+        </div>
+    
+        <video class="aurora-bg" autoplay="" muted="" loop="" src="https://cdn.pixabay.com/video/2024/05/23/213425_large.mp4"></video>
+        
+        <a href="#site-main" title="Go to main content">
+            <span class="fa fa-chevron-down"></span>
+        </a>
+    </header>
+    
 
 </header>
 
@@ -53,31 +72,45 @@
 
         <div class="flex-container">
 
-            <article class="page-cards">
-                <a href="#.html"></a>
+            <p class="blurb1">Explore The Yukon, where vibrant history, surreal landscapes, and awe-inspiring scenery come together for a truly unforgettable experience. </p>
+
+            <p class="blurb2">Welcome to the land of the large.</p>
+
+            <article class="page-cards nature">
+                <a href="#.html"><img src="media/grizzlies-fighting.jpg" alt="Two grizzlies fighting in water"></a>
+                
+                <div class="content">
                 <h3>Explore Natural Wonders</h3>
-                <p>Embark on an adventure into Yukon's pristine wilderness and witness majestic wildlife in their natural habitat. From grizzly bears to moose, experience the awe-inspiring beauty of the north. Whether hiking, paddling, or simply soaking in the scenery, Yukon's untamed landscapes offer an unforgettable escape.
-                    
-                <a href="#.html">Adventure awaits</a>
+                <p>Embark on an adventure into The Yukon's pristine wilderness and witness majestic wildlife in their natural habitat. From grizzly bears to moose, experience the awe-inspiring beauty of the north. Whether hiking, paddling, or simply soaking in the scenery, The Yukon's untamed landscapes offer an unforgettable escape.
                 </p>
+
+                <a class="card-button" href="#.html">Adventure awaits <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+
+            <article class="page-cards culture">
+                <a href="#.html"><img src="media/carcross-totem-pole.jpg" alt="Totem pole in Carcross"></a>
+                
+                <div class="content">
+                <h3>Unveil Rich History</h3>
+                <p>Delve into The Yukon's rich history and vibrant culture, exploring indigenous traditions, gold rush heritage, and local festivals that bring communities together. Visit museums and heritage sites to experience the unique blend of The Yukon's past and present, uncovering the stories that shaped this incredible region.
+                </p>
+
+                <a class="card-button" href="#.html">Connect with history <i class="fa fa-arrow-right"></i></a>
+                </div>
             </article>
 
-            <article class="page-cards">
-                <a href="#.html"></a>
-                <h3>Unveil Rich History and Culture</h3>
-                <p>Delve into Yukon's rich history and vibrant culture. Explore indigenous traditions, gold rush heritage, and local festivals. Visit museums and heritage sites to experience the unique blend of Yukon's past and present.
-                    
-                <a href="#.html">Connect with history</a>
-                </p>
-            </article>
+            <article class="page-cards aurora">
+                <a href="#.html"><img src="media/whitehorse-northern-lights.jpg" alt="Aurora borealis over Whitehorse"></a>
 
-            <article class="page-cards">
-                <a href="#.html"></a>
+                <div class="content">
                 <h3>Experience Nature's Lightshow</h3>
-                <p>Witness the magic of the northern lights in Yukon. Watch as the night sky comes alive with vibrant colors and ethereal waves of light. This natural spectacle is a must-see, offering an unforgettable adventure in the heart of the wilderness. Capture the beauty of the auroras on our aurora photography tours and create memories that will last a lifetime.
-
-                <a href="#.html">Be amazed</a>
+                <p>Witness the magic and watch as the night sky comes alive with vibrant colors and ethereal waves of light. This natural spectacle is a must-see, offering an unforgettable adventure in the heart of the wilderness. Capture the beauty of the auroras on an aurora photography tour and create memories that will last a lifetime.
                 </p>
+                
+                <a class="card-button" href="#.html">Be amazed <i class="fa fa-arrow-right"></i></a>
+                </div>
             </article>
 
         </div>
@@ -90,16 +123,16 @@
     <p>Connect with us</p>
     <nav class="footer-icons">
         <ul>
-            <li><a href="http://www.facebook.com">FB</a></li>
-            <li><a href="http://www.twitter.com">TWT</a></li>
-            <li><a href="http://www.instagram.com">IG</a></li>
-            <li><a href="http://www.youtube.com">YT</a></li>
-
+            <li><a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="http://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
         </ul>
     </nav>
 
     <p class="copyright">© 2024 - Molly Breiddal - BCIT FWD40<br>
     Site created for educational purposes only.
+    <br>
     <br>
     <a href="#.html">Credits</a>
     </p>
