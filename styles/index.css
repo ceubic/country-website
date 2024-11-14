@@ -10,6 +10,15 @@
     height: 50rem;
 }
 
+.intro {
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: left;
+}
+
 /* Larger Screens */
 @media (min-width: 50rem) {
     
@@ -17,14 +26,9 @@
         width: 100vw;
     }
 
-}
-
-.site-header {
-    position: relative;
-    padding: 1.25rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    h1 {
+        font-size: 7rem;
+    }
 }
 
 
@@ -53,12 +57,17 @@
 
 @media (min-width: 50rem) {
 
+    .intro {
+        line-height: 1.5;
+    }
+
     .intro h1 {
         margin: 12rem 0 2rem 0;
     }
 
     .intro p {
         font-size: 3rem;
+        margin: 0 0 14rem 0;
     }
 
 }
@@ -73,15 +82,21 @@
 .blurb {
     padding-top: 2.5rem;
     font-weight: 600;
+    line-height: 1.5;
 }
 
 h2 {
     font-size: 2rem;
     font-weight: 700;
+    line-height: 1.2;
 }
 
 .page-cards {
     padding-bottom: 2rem;
+}
+
+.page-cards h3 {
+    margin-left: 1.5rem;
 }
 
 .page-cards p {
@@ -129,6 +144,10 @@ h2 {
         font-size: 3rem;
     }
     
+    h3 {
+        font-size: 2rem;
+    }
+
     .page-cards {
         display: flex;
         align-items: center;

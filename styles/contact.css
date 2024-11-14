@@ -1,9 +1,10 @@
 
-
 h1 {
-	font-size: 2.5rem;
-	text-align: center;
-	margin: 7rem 0 4rem 0;
+	line-height: 1;
+}
+
+h3 {
+	margin: 1.5rem;
 }
 
 img {
@@ -83,12 +84,6 @@ input:focus, textarea:focus {
 
 
 @media (min-width: 50rem) {
-
-	h1 {
-		font-size: 6rem;
-		text-align: center;
-		margin: 10rem 0 6rem 0;
-	}
 
 	h3 {
 		font-size: 3rem;
