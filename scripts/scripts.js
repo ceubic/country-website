@@ -40,21 +40,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let lastScrollTop = 0;
 
-    // Handle scroll event to toggle transparency and visibility
+
     window.addEventListener('scroll', () => {
         let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
         if (scrollTop > lastScrollTop) {
-            // Scrolling down
+
             nav.classList.add('transparent');
         } else {
-            // Scrolling up
+
             nav.classList.remove('transparent');
         }
-        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
     });
 
-    // Handle click event on the hamburger menu
+
     navButton.addEventListener('click', () => {
         nav.classList.remove('transparent');
     });
