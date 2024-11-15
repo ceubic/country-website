@@ -35,7 +35,7 @@ h1 {
 .fa-chevron-down {
     font-size: 1.5rem;
     color: white; 
-    margin-bottom: 2rem;
+    margin: 2rem;
 }
 
 
@@ -125,6 +125,10 @@ h2 {
 
 .fa-arrow-right {
     margin-left: 0.5rem;
+}
+
+footer {
+    margin-top: 0;
 }
 
 @media (min-width: 50rem) {

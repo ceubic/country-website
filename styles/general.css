@@ -13,8 +13,7 @@ body {
 
 h1 {
 	font-size: 2.5rem;
-	text-align: center;
-	margin: 7rem 0 4rem 0;
+	margin: 7rem 1.5rem 2rem 1.5rem;
 }
 
 h2 {
@@ -36,7 +35,7 @@ h6 {
 }
 
 p {
-	margin: 0 0 1.5em;
+	margin: 1.5rem;
 }
 
 a {
@@ -206,7 +205,6 @@ a:focus {
 
 .site-header {
     position: relative;
-    padding: 1.25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,6 +277,10 @@ footer p {
     text-decoration: underline;
     color: rgb(170, 170, 170);
     transition: .2s;
+}
+
+footer {
+    margin-top: 10rem;
 }
 
 @media (min-width: 50em) {

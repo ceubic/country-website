@@ -1,0 +1,61 @@
+
+h1 {
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.page-cards {
+    padding-bottom: 2rem;
+}
+
+.page-cards h3 {
+    margin-left: 1.5rem;
+}
+
+.page-cards p {
+    line-height: 2;
+    margin: 1.5rem;
+}
+
+@media (min-width: 50rem) {
+
+    
+    h1 {
+        line-height: 1;
+        margin-bottom: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+    
+    h3 {
+        font-size: 2rem;
+    }
+
+    .page-cards {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+
+    .page-cards.content {
+        width: 40%;
+    }
+
+
+    .page-cards.earlyhistory, .page-cards.government {
+        flex-direction: row-reverse;
+    }
+
+    .page-cards img {
+        width: 30rem;
+        height: 25rem;
+        display: block;
+        object-fit: cover;
+    }
+
+
+}

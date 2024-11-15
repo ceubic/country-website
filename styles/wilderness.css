@@ -1,0 +1,92 @@
+
+h1 {
+    line-height: 1;
+}
+
+p {
+    margin: 1.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    overflow-x: auto;
+    display: block;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+@media (min-width: 50rem) {
+
+    
+    h1 {
+        line-height: 1;
+        margin-bottom: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+    
+    h3 {
+        font-size: 2rem;
+    }
+
+/* General styles for the page cards */
+.page-cards {
+    display: flex;
+    align-items: stretch;  /* Make both items stretch to the same height */
+    padding: 20px;
+
+    margin-bottom: 20px;
+    gap: 20px;  /* Space between image and content */
+}
+
+/* Styles for the grid container and items */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+    width: 50%;
+}
+
+.grid-container div:nth-child(2) {
+    grid-row: span 2;
+}
+
+.page-cards .content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 3rem;
+}
+
+
+.page-cards img {
+    width: 100%;
+    height: auto;
+}
+
+.page-cards.hunting {
+    flex-direction: row-reverse;
+}
+
+    .license-table {
+        margin: 2rem;
+    }
+}
