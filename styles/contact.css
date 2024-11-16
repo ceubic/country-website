@@ -103,10 +103,7 @@ input:focus, textarea:focus {
 		display: block;
 		margin-bottom: 10rem;
 	}
-	
-	.content-form {
-		flex: 1;
-	}
+
 	
 	form {
 		width: 60%;
@@ -120,7 +117,7 @@ input:focus, textarea:focus {
 		display: flex;
 		justify-content: left;
 		margin-left: 1.5rem;
-		width: 100%;
+		width: 90%;
 	}
 	
 	article .content {
