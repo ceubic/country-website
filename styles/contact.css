@@ -7,7 +7,7 @@ h3 {
 	margin: 1.5rem;
 }
 
-img {
+.flex-container img {
 	height: 25rem;
 	width: 20rem;
 	object-fit: cover;
@@ -95,7 +95,7 @@ input:focus, textarea:focus {
 		gap: 1.5rem;
 	}
 	
-	article img {
+	.flex-container img {
 		width: 50rem;
 		height: 30rem;
 		object-fit: cover;
