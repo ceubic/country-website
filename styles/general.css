@@ -26,7 +26,6 @@ h3 {
     line-height: 1.5;
 }
 
-
 h4,
 h5,
 h6 {
@@ -44,9 +43,8 @@ a {
 
 
 a:focus {
-	outline: 1px #cfcfcf dotted;
+	outline: .0625rem #cfcfcf dotted;
 }
-
 
 .nav {
     list-style: none;
@@ -65,13 +63,13 @@ a:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: .625rem 1.25rem;
     background: white;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    border-bottom: 1px solid #cfcfcf;
+    border-bottom: .0625rem solid #cfcfcf;
     transition: background 0.2s ease;
 }
 
@@ -93,7 +91,7 @@ a:focus {
 
 .bar1, .bar2, .bar3 {
     width: 100%;
-    height: 2px;
+    height: .125rem;
     background-color: #333;
     transition: 0.2s;
 }
@@ -157,7 +155,6 @@ a:focus {
     transition: .2s;
 }
 
-/* Larger Screens */
 @media (min-width: 50rem) {
 
 	h1 {
@@ -188,7 +185,7 @@ a:focus {
     }
 
     .nav li {
-        margin: 0 10px;
+        margin: 0 .625rem;
     }
 
     .nav a {
@@ -246,7 +243,7 @@ h2 {
 .footer-icons a {
     text-decoration: none;
     color: inherit;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .footer-icons a:hover {
@@ -261,7 +258,7 @@ footer p {
 }
 
 .copyright {
-    border-top: #ffff 1px solid;
+    border-top: #ffff .0625rem solid;
     padding-top: 2rem;
     width: 100%;
     font-size: .5rem;

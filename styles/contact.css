@@ -51,7 +51,7 @@ input, textarea {
 	background-color: rgb(232, 232, 232);
 	border-radius: 10px;
 	border: none;
-	box-shadow: inset 0 0 0 1px rgb(85, 85, 85)
+	box-shadow: inset 0 0 0 .0625rem rgb(85, 85, 85)
 }
 
 textarea {
@@ -60,7 +60,7 @@ textarea {
 }
 
 input:focus, textarea:focus {
-	box-shadow: inset 0 0 0 2px #000000;
+	box-shadow: inset 0 0 0 .125rem #000000;
 	outline: none;
 }
 
@@ -103,10 +103,7 @@ input:focus, textarea:focus {
 		display: block;
 		margin-bottom: 10rem;
 	}
-	
-	.content-form {
-		flex: 1;
-	}
+
 	
 	form {
 		width: 60%;
@@ -120,7 +117,7 @@ input:focus, textarea:focus {
 		display: flex;
 		justify-content: left;
 		margin-left: 1.5rem;
-		width: 100%;
+		width: 90%;
 	}
 	
 	article .content {

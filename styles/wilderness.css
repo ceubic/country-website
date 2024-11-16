@@ -10,16 +10,16 @@ p {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 16px;
+    margin: 1.25rem 0;
+    font-size: 1rem;
     text-align: left;
     overflow-x: auto;
     display: block;
 }
 
 th, td {
-    padding: 12px 15px;
-    border: 1px solid #ddd;
+    padding: .75rem 1rem;
+    border: .0625rem solid #ddd;
 }
 
 th {
@@ -33,7 +33,6 @@ tr:nth-child(even) {
 
 @media (min-width: 50rem) {
 
-    
     h1 {
         line-height: 1;
         margin-bottom: 4rem;
@@ -47,44 +46,40 @@ tr:nth-child(even) {
         font-size: 2rem;
     }
 
-/* General styles for the page cards */
-.page-cards {
-    display: flex;
-    align-items: stretch;  /* Make both items stretch to the same height */
-    padding: 20px;
+    .page-cards {
+        display: flex;
+        align-items: stretch;
+        padding: 1.25rem;
+        margin-bottom: 1.25rem;
+        gap: 1.25rem;
+    }
 
-    margin-bottom: 20px;
-    gap: 20px;  /* Space between image and content */
-}
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: .5rem;
+        width: 50%;
+    }
 
-/* Styles for the grid container and items */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: .5rem;
-    width: 50%;
-}
+    .grid-container div:nth-child(2) {
+        grid-row: span 2;
+    }
 
-.grid-container div:nth-child(2) {
-    grid-row: span 2;
-}
+    .page-cards .content {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        margin: 3rem;
+    }
 
-.page-cards .content {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    margin: 3rem;
-}
+    .page-cards img {
+        width: 100%;
+        height: auto;
+    }
 
-
-.page-cards img {
-    width: 100%;
-    height: auto;
-}
-
-.page-cards.hunting {
-    flex-direction: row-reverse;
-}
+    .page-cards.hunting {
+        flex-direction: row-reverse;
+    }
 
     .license-table {
         margin: 2rem;

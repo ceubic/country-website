@@ -19,7 +19,6 @@ h1 {
     text-align: left;
 }
 
-/* Larger Screens */
 @media (min-width: 50rem) {
     
     .aurora-bg {
@@ -30,7 +29,6 @@ h1 {
         font-size: 7rem;
     }
 }
-
 
 .fa-chevron-down {
     font-size: 1.5rem;
@@ -69,7 +67,6 @@ h1 {
         font-size: 3rem;
         margin: 0 0 14rem 0;
     }
-
 }
 
 .blurb, h2 {
